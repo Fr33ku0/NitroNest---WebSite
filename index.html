@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> NitroNest.PL - Strona główna</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+    <header>
+        <navbar>
+            <div class="navlink-logo">
+                <a href="#">
+                    <img src="logo.png" alt="NitroNest Logo">
+                    <span>NitroNest.PL</span>
+                </a>
+            </div>
+            <div class="Navlink">
+                <a href="#" class="active" onclick="showSection('home')">Strona główna</a>
+                <a href="#" onclick="showSection('administration')">Administracja</a>
+                <a href="#">Sklep</a>
+            </div>
+        </navbar>
+    </header>
+
+    <main>
+        <!-- Tapierwsza sekcja-->
+        <section id="home" class="hero-section section-active">
+            <div class="hero-text">
+                <h1>Witaj, na NitroNest!</h1>
+                <h2><span id="typed"></span></h2>
+                <p>Poznaj naszą ofertę, w której znajdziesz nasze produkty!</p>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3 class="count" data-target="99">0</h3>
+                        <p>Legit checków!</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="count" data-target="99">0</h3>
+                        <p>Zadowolonych klientów!</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="count" data-target="259">0</h3>
+                        <p>Sprzedanych produktów!</p>
+                    </div>
+                </div>
+
+                <a href="https://discord.gg/nitronest" class="btn">Dowiedz się więcej</a>
+            </div>
+            <div class="hero-image">
+                <img src="img.png" alt="">
+            </div>
+        </section>
+
+
+        <!-- Sekcja adminuf -->
+        <section id="administration" class="admin-section">
+            <div class="admin-container">
+                <h2>Zespół NitroNest</h2>
+                <div class="admin-slots">
+                    <!-- 1 admin -->
+                    <div class="admin-slot">
+                        <img src="admin1.jpg" alt="zdjecie">
+                        <h3>Zaba</h3>
+                        <p>Administrator!</p>
+                        <p>Witaj, jestem Zaba - prawa ręka Fr33k'a. 
+                            Niedawno zacząłem swoją przygodę w prowadzeniu sklepu, 
+                            Staram się jak najbardziej pomagać klientom oraz również realizować zamówienia
+                            tak jak robi to "Fr33ku". Z dnia na dzień staram się doskonalić swoje umiejętności.</p>
+                    </div>
+                    <!-- 2 admin -->
+                    <div class="admin-slot">
+                        <img src="admin2.gif">
+                        <h3>Fr33ku</h3>
+                        <p>Właściciel!</p>
+                        <p>Siemka, jestem Fr33ku - Właściciel NitroNest. Zajmuje się wykonywaniem zamówień oraz ich 
+                            jak najszybszą dostawą. Zajmuje się tym już od niecałych 2 lat, 
+                            Stale staram się rozwijać swój asortyment oraz sklep, czyli "NitroNest". Dbam o niego
+                            poe wieloma względami, od botów po nasz asortyment.</p>
+                    </div>
+                    <!-- 3 admin -->
+                    <div class="admin-slot">
+                        <img src="admin3.gif">
+                        <h3>Pietniak</h3>
+                        <p>Helper!</p>
+                        <p>Hej, nazywam się pietniak, Posiadam swój nie duży staż w nitronest. Jestem pomocnikiem
+                        min. na ticketach oraz na chacie. Staram się odpisywać jak najszybciej i dogadywać z naszymi
+                        klientami. Dbam o dobry wizerunek sklepu oraz jego aktywność. No i nic, jak tylko zaprosić was
+                        na nasz sklep!   </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sekcja Sklepu -->
+        <section id="shop" class="shop-section">
+            <div class="shop-container">
+                <h2>Sklep</h2>
+                <div class="shop-grid">
+                    <!-- Produkt 1 -->
+                    <div class="shop-item">
+                        <img src="produkt1.jpg">
+                        <h3>Nitro</h3>
+                        <p>Opis produktu 1.</p>
+                        <span class="price">7-90 PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 2 -->
+                    <div class="shop-item">
+                        <img src="produkt2.jpg" alt="Produkt 2">
+                        <h3>Server Boost</h3>
+                        <p>Opis produktu 2.</p>
+                        <span class="price">5-40 PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 3 -->
+                    <div class="shop-item">
+                        <img src="produkt3.jpg" alt="Produkt 3">
+                        <h3>Social FiveM</h3>
+                        <p>Opis produktu 3.</p>
+                        <span class="price">10-18 PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 4 -->
+                    <div class="shop-item">
+                        <img src="produkt4.jpg" alt="Produkt 4">
+                        <h3>Aged Accounts</h3>
+                        <p>Opis produktu 4.</p>
+                        <span class="price">7-45 PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 5 -->
+                    <div class="shop-item">
+                        <img src="produkt5.jpg" alt="Produkt 5">
+                        <h3>Aplikacje Adobe</h3>
+                        <p>Opis produktu 5.</p>
+                        <span class="price">15 PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 6 -->
+                    <div class="shop-item">
+                        <img src="produkt6.jpg" alt="Produkt 6">
+                        <h3>Online Members</h3>
+                        <p>Opis produktu 6.</p>
+                        <span class="price">10-40 PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 7 -->
+                    <div class="shop-item">
+                        <img src="produkt7.jpg" alt="Produkt 7">
+                        <h3>Offline Members</h3>
+                        <p>Opis produktu 7.</p>
+                        <span class="price">5-100 PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 8 -->
+                    <div class="shop-item">
+                        <img src="produkt8.jpg" alt="Produkt 8">
+                        <h3>Spotify Premium</h3>
+                        <p>Opis produktu 8.</p>
+                        <span class="price">7-30 PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 9 -->
+                    <div class="shop-item">
+                        <img src="produkt9.jpg" alt="Produkt 9">
+                        <h3>Youtube Premium</h3>
+                        <p>Opis produktu 9.</p>
+                        <span class="price">10-50 PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 10 -->
+                    <div class="shop-item">
+                        <img src="produkt10.jpg" alt="Produkt 10">
+                        <h3>Netflix</h3>
+                        <p>Opis produktu 10.</p>
+                        <span class="price">7-120 PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 11 -->
+                    <div class="shop-item">
+                        <img src="produkt11.jpg" alt="Produkt 11">
+                        <h3>Tools</h3>
+                        <p>Opis produktu 11.</p>
+                        <span class="price">10-30 PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 12 -->
+                    <div class="shop-item">
+                        <img src="produkt12.jpg" alt="Produkt 12">
+                        <h3>Discord Bots</h3>
+                        <p>Opis produktu 12.</p>
+                        <span class="price">20-40 PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 13 -->
+                    <div class="shop-item">
+                        <img src="produkt13.jpg" alt="Produkt 13">
+                        <h3>Custom Discord Bots</h3>
+                        <p>Opis produktu 13.</p>
+                        <span class="price">??? PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 14 -->
+                    <div class="shop-item">
+                        <img src="produkt14.jpg" alt="Produkt 14">
+                        <h3>Exchange</h3>
+                        <p>Opis produktu 14.</p>
+                        <span class="price">??? PLN</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Kup teraz</a>
+                    </div>
+                    <!-- Produkt 15 -->
+                    <div class="shop-item">
+                        <img src="produkt15.jpg" alt="Soon...">
+                        <h3>Soon...</h3>
+                        <p>Soon...</p>
+                        <span class="price">Soon...</span>
+                        <a href="https://discord.gg/nitronest" class="btn">Soon...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <h2>Formularz Kontaktowy!</h2>
+
+                <?php
+                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                    // Discord Webhook URL
+                    $webhookurl = "https://discord.com/api/webhooks/1291855990748090499/s7p2DXGNxYXFKTYSrjSOVJDNNH4fodNL_QNQGbPDpjY5WYp4QO7maqFLwjoq-e_IAFUb";
+
+                    // Collect and sanitize form data
+                    $name = htmlspecialchars($_POST['name']);
+                    $email = htmlspecialchars($_POST['email']);
+                    $message = htmlspecialchars($_POST['message']);
+
+                    // Create the embed object
+                    $embed = [
+                        "title" => "Nowa wiadomosc z formularza",
+                        "description" => "Dostales nowa wiadomosc z formularza kontaktu!",
+                        "fields" => [
+                            ["name" => "Name", "value" => $name, "inline" => true],
+                            ["name" => "Email", "value" => $email, "inline" => true],
+                            ["name" => "Message", "value" => $message, "inline" => false]
+                        ],
+                        "color" => hexdec("7289DA"), // Embed color
+                        "footer" => ["text" => "NitroNest"]
+                    ];
+
+                    // Prepare payload for Discord webhook
+                    $json_data = json_encode([
+                        "username" => "Nitronest formularz kontaktowy",
+                        "embeds" => [$embed]
+                    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+
+                    // Initialize cURL and send request to Discord webhook
+                    $ch = curl_init($webhookurl);
+                    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-type: application/json']);
+                    curl_setopt($ch, CURLOPT_POST, 1);
+                    curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
+                    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+                    curl_setopt($ch, CURLOPT_HEADER, 0);
+                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+                    // Execute the request
+                    $response = curl_exec($ch);
+                    curl_close($ch);
+
+                    // Display success or failure message
+                    if ($response) {
+                        echo "<p>Wiadomość zostałą wysłana!</p>";
+                    } else {
+                        echo "<p>Błąd, Wiadomość nie została wysłana!.</p>";
+                    }
+                } else {
+                ?>
+                    <form action="" method="POST">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br>
+
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" required></textarea><br>
+
+                        <input type="submit" value="Send Message">
+                    </form>
+                    <?php
+                }
+                ?>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ["Niskie ceny!", "Szeroki asortyment!", "Szybka obsługa!"],
+            typeSpeed: 40,
+            backSpeed: 20,
+            loop: true
+        });
+
+        function showSection(sectionId) {
+            // Ukryj wszystkie sekcje
+            var sections = document.querySelectorAll('section');
+            sections.forEach(function(section) {
+                section.classList.remove('section-active');
+            });
+
+            // Pokaż wybraną sekcję
+            var selectedSection = document.getElementById(sectionId);
+            selectedSection.classList.add('section-active');
+
+            // Zmiana aktywnej nawigacji
+            var navLinks = document.querySelectorAll('.Navlink a');
+            navLinks.forEach(function(link) {
+                link.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+    </script>
+    <script>
+        const counters = document.querySelectorAll('.count');
+        const speed = 200; // czas trwania animacji w ms
+
+        counters.forEach(counter => {
+            const updateCount = () => {
+                // Ustawianie docelowej wartości
+                const target = +counter.getAttribute('data-target');
+                // Pobieranie bieżącej wartości
+                const count = +counter.innerText;
+
+                // Obliczanie przyrostu
+                const increment = Math.ceil(target / speed);
+
+                // Warunek zatrzymania
+                if (count < target) {
+                    // Aktualizacja liczby
+                    counter.innerText = count + increment;
+                    // Powtarzanie, aż osiągniemy docelową wartość
+                    setTimeout(updateCount, 1);
+                } else {
+                    counter.innerText = target; // Upewnij się, że końcowa liczba to dokładnie target
+                }
+            };
+
+            updateCount();
+        });
+    </script>
+
+</body>
+
+</html>
