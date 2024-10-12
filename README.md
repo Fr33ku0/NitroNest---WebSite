@@ -1,1 +1,1 @@
-# NitroNest---WebSite
+# discord.gg/nitronest
